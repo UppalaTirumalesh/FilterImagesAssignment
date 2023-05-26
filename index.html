@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FilterSuitImages</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="checkbox-field">
+            <br>
+            <h3>Men Suits</h3>
+            <h2>FILTERS</h2>
+            <br>
+            <div class="brand" id="brand">
+                <h3>BRAND</h3>
+                <input type="checkbox" class="checkbox-value" id="Allen Solly">
+                <label for="Allen Solly"> Allen Solly</label><br>
+                <input type="checkbox" class="checkbox-value" id="Louis Philippe">
+                <label for="Louis Philippe"> Louis Philippe</label><br>
+                <input type="checkbox" class="checkbox-value" id="Blackberrys">
+                <label for="Blackberrys"> Blackberrys</label><br>
+                <input type="checkbox" class="checkbox-value" id="Van Heusen">
+                <label for="Van Heusen"> Van Heusen</label><br>
+                <input type="checkbox" class="checkbox-value" id="Peter England Elite">
+                <label for="Peter England Elite"> Peter England Elite</label><br>
+                <input type="checkbox" class="checkbox-value" id="Arrow">
+                <label for="Arrow"> Arrow</label><br>
+                <input type="checkbox" class="checkbox-value" id="Park Avenue">
+                <label for="Park Avenue"> Park Avenue</label><br>
+                <input type="checkbox" class="checkbox-value" id="Hangup">
+                <label for="Hangup"> Hangup</label><br>
+                <input type="checkbox" class="checkbox-value" id="Raymond">
+                <label for="Raymond"> Raymond</label><br>
+            </div>
+            <br>
+            <div class="price">
+                <h3>PRICE</h3>
+                <input type="checkbox" id="price1" class="SelectedPrice">
+                <label for="price1"> Rs. 1500 to Rs. 9800</label><br>
+                <input type="checkbox" id="price2" class="SelectedPrice">
+                <label for="price2"> Rs. 9800 to Rs. 18200</label><br>
+                <input type="checkbox" id="price3" class="SelectedPrice">
+                <label for="price3"> Rs. 18200 to Rs. 26600</label><br>
+                <input type="checkbox" id="price4" class="SelectedPrice">
+                <label for="price4"> Rs. 26600 to Rs. 35000</label><br>
+            </div>
+            <br>
+            <div class="colours">
+                <h3>COLOUR</h3>
+                <input type="checkbox" id="Navy Blue" class="SelectedColor">
+                <label for="Navy Blue"> Navy Blue</label><br>
+                <input type="checkbox" id="Midnight Blue" class="SelectedColor">
+                <label for="Midnight Blue">Midnight Blue</label><br>
+                <input type="checkbox" id="Light Blue" class="SelectedColor">
+                <label for="Light Blue"> Light Blue</label><br>
+                <input type="checkbox" id="Purple" class="SelectedColor">
+                <label for="Purple"> Purple</label><br>
+                <input type="checkbox" id="Sky Blue" class="SelectedColor">
+                <label for="Sky Blue"> Sky Blue</label><br>
+                <input type="checkbox" id="Brown" class="SelectedColor">
+                <label for="Brown"> Brown</label><br>
+                <input type="checkbox" id="Dark Blue" class="SelectedColor">
+                <label for="Dark Blue"> Dark Blue</label><br>
+                <input type="checkbox" id="Green" class="SelectedColor">
+                <label for="Green"> Green</label><br>
+            </div>
+        </div>
+        <div class="images-container">
+            <div id="Allen Solly" class="images" data-color="Navy Blue" data-price="price3">
+                <img src="./assets/Allen Solly.jpg">
+                <h3>Allen Solly</h3>
+                <p>Men Navy Blue Checked Single-Breasted Slim-Fit 3-Piece Formal Suit</p>
+                <span>Rs.19699</span>
+            </div>
+            <div id="Louis Philippe" class="images" data-color="Green" data-price="price4">
+                <img src="./assets/Louis Philippe.jpg">
+                <h3>Louis Philippe</h3>
+                <p>Men's Teal Checked Brand Logo Detailed Single Breasted Checked Suit</p>
+                <span>Rs.27079</span>
+            </div>
+            <div id="Blackberrys" class="images" data-color="Light Blue" data-price="price3">
+                <img src="./assets/Blackberrys.webp">
+                <h3>Blackberrys</h3>
+                <p>Men Slim Fit Notched Lapel Single-Breasted 2 Piece Suit</p>
+                <span>Rs.18995</span>
+            </div>
+            <div id="Van Heusen" class="images" data-color="Purple" data-price="price2">
+                <img src="./assets/Van Heusen.webp">
+                <h3>Van Heusen</h3>
+                <p>Men Purple Self Design Single-Breasted Slim-Fit Three-Piece Formal Suit</p>
+                <span>Rs.13349</span>
+            </div>
+            <div id="Peter England Elite" class="images" data-color="Sky Blue" data-price="price1">
+                <img src="./assets/Peter England Elite.jpg">
+                <h3>Peter England Elite</h3>
+                <p>Polyester Blend Men Blue Textured Slim Fit Formal Two Piece Suit Business Pants Set</p>
+                <span>Rs.6980</span>
+            </div>
+            <div id="Arrow" class="images" data-color="Brown" data-price="price2">
+                <img src="./assets/Arrow.avif">
+                <h3>Arrow</h3>
+                <p>Men Brown Tailored Fit Self Design Single Breasted Formal Suit</p>
+                <span>Rs.9910</span>
+            </div>
+            <div id="Park Avenue" class="images" data-color="Dark Blue" data-price="price1">
+                <img src="./assets/Park Avenue.jpg">
+                <h3>Park Avenue</h3>
+                <p>Men Dark Blue Solid Regular-Fit Single-Breasted 2-Piece Formal Suit</p>
+                <span>Rs.6599</span>
+            </div>
+            <div id="Hangup" class="images" data-color="Midnight Blue" data-price="price3">
+                <img src="./assets/Hangup.webp">
+                <h3>Hangup</h3>
+                <p>Men Blue Solid Single-Breasted 2 Piece Formal Suit</p>
+                <span>Rs.22310</span>
+            </div>
+            <div id="Raymond" class="images" data-color="Green" data-price="price4">
+                <img src="./assets/Raymond.webp">
+                <h3>Raymond</h3>
+                <p>Men Slim Fit Self-Design Textured Notched Lapel Single-Breasted Formal Suit</p>
+                <span>Rs.30499</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
