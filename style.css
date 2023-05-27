@@ -25,11 +25,11 @@
     display: grid;
     align-items: center;
     gap: 40px;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 .images{
     border: 1px solid grey;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 img{
     width: 300px;
