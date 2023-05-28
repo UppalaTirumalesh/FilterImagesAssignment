@@ -1,47 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.checkbox-field{
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search {
+    width: 30%;
+    height: 30px;
+    font-size: 17px;
+}
+
+.checkbox-field {
     display: inline-block;
     margin-left: 20px;
 }
-.brand{
+
+.brand {
     border: 1px solid grey;
     padding: 15px;
 }
-.price{
+
+.price {
     border: 1px solid grey;
     padding: 20px;
 
 }
-.colours{
+
+.colours {
     border: 1px solid grey;
     padding: 20px;
 }
+
 .images-container {
     padding: 20px;
     display: grid;
     align-items: center;
     gap: 40px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
-.images{
+
+.images {
     border: 1px solid grey;
     padding-left: 30px;
 }
-img{
+
+img {
     width: 300px;
     height: 450px;
 }
-span{
+
+span {
     font-size: x-large;
     font-weight: bold;
 }
-.container{
+
+.container {
     display: flex;
 }
-.hide{
+
+.hide {
     display: none;
 }
